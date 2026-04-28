@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { lerBanco, salvarBanco } = require('../database');
 
-// Validação de e-mail usando Regex
+// Validação de e-mail 
 const validarEmail = (email) => {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);

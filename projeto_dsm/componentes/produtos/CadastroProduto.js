@@ -17,7 +17,6 @@ export default function CadastroProduto({ route, navigation }) {
     if (isNaN(pNum) || pNum <= 0) return msg("Insira um preço válido.");
 
     try {
-      // CORREÇÃO: URL dinâmica para POST (novo) ou PUT (editar)
       const url = itemEditar 
         ? `http://localhost:3000/produtos/${itemEditar.id}` 
         : `http://localhost:3000/produtos`;

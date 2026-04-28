@@ -2,8 +2,6 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { View, Text, TouchableOpacity } from 'react-native';
-
-// ESTA LINHA CORRIGE O ERRO "estilos is not defined"
 import { estilos } from './estilos/estilos'; 
 
 import ListarUsuarios from './componentes/usuarios/ListarUsuarios';

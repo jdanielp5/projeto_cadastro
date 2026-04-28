@@ -1,7 +1,7 @@
 import { StyleSheet, Platform } from 'react-native';
 
 export const estilos = StyleSheet.create({
-  // Fundo com um leve tom azulado para profundidade
+  
   container: { 
     flex: 1, 
     padding: 24, 
@@ -15,7 +15,6 @@ export const estilos = StyleSheet.create({
     marginBottom: 24 
   },
   
-  // Inputs estilo "Modern Glass"
   inputGroup: { marginBottom: 20 },
   label: { fontSize: 13, fontWeight: '700', color: '#64748B', marginBottom: 8, textTransform: 'uppercase' },
   input: { 
@@ -32,7 +31,6 @@ export const estilos = StyleSheet.create({
     })
   },
 
-  // Cards com design de lista premium
   card: { 
     backgroundColor: '#FFFFFF',
     borderRadius: 16,
@@ -49,7 +47,6 @@ export const estilos = StyleSheet.create({
   nomeItem: { fontSize: 18, fontWeight: '700', color: '#0F172A' },
   infoItem: { fontSize: 14, color: '#64748B', marginTop: 4, fontWeight: '500' },
 
-  // Botões com Gradiente Simulado
   btnPrincipal: { 
     backgroundColor: '#4F46E5', // Indigo
     paddingVertical: 18, 
@@ -74,7 +71,6 @@ export const estilos = StyleSheet.create({
 
   areaBotoes: { flexDirection: 'row', gap: 12 },
 
-  // FAB (Botão Flutuante) Minimalista
   fab: { 
     position: 'absolute', bottom: 40, right: 30, 
     backgroundColor: '#4F46E5', width: 64, height: 64, 

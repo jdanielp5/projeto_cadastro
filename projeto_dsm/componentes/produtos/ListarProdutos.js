@@ -11,7 +11,7 @@ export default function ListarProdutos({ navigation }) {
     try {
       const response = await fetch(API_URL);
       const data = await response.json();
-      // CORREÇÃO: Usar setProdutos para a lista de produtos
+      
       setProdutos(data); 
     } catch (error) {
       console.error("Erro ao carregar produtos:", error);

@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// Ajustado para garantir que o caminho aponte para o local correto
 const dbPath = path.join(__dirname, '..', 'projeto_dsm', 'db.json');
 
 const lerBanco = () => {
